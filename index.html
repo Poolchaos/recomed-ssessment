@@ -1,0 +1,37 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>RecoMed Assessment</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+</head>
+
+<body>
+  <h5>Application Calculator</h5>
+  <div class="wrapper">
+      <label>Lump Sum Investment Month</label>
+      <input type="number" min="1" max=12 id="lumpSumInvestmentMonth" />
+      
+      <label>Lump Sum Investment Amount</label>
+      <input type="number" id="lumpSumInvestmentAmount" />
+      
+      <label>Debit Order Start Month</label>
+      <input type="number" min="1" max=12 id="debitOrderStartMonth" />
+      
+      <label>Debit Order Amount</label>
+      <input type="number" id="debitOrderAmount" />
+      <button id="calcButton" class="button">Calculate</button>
+  </div>
+
+  <label>Result:</label>
+  <div id="response" class="response-block"></div>
+
+  <script src="js/index.js" defer></script>
+</body>
+</html>
